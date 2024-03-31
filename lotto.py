@@ -1,7 +1,7 @@
 import pandas as pd
 import random as rng
 
-n = 1     # Enter number of prizes here
+n = int(input('Please enter number of winners:')   # Enter number of prizes here
 path = raw_input('Please enter the system path to the chain report csv:') # Enter csv path between quote marks
 limit = 100 #minimum number of attacks
 
